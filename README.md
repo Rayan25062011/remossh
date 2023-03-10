@@ -11,6 +11,15 @@
 Remossh is a easy to use cli for ssh connections to Servers and computers.
 
 
+
+## remosshlib
+```
+from remosshlib import remossh
+
+ssh = remossh()
+ssh.connect("8.8.8.8", "ls -l")
+```
+
 ## [![Repography logo](https://images.repography.com/logo.svg)](https://repography.com) / Recent activity [![Time period](https://images.repography.com/34865635/Rayan25062011/remossh/recent-activity/l0YrkkjyMXuy6_XVuo0JEiodmJ4OKWrZi-59MboDo4s/iDt1cbijGWWt4rY9eIw-uu_dzq4BrJp9c58gnGcrLzk_badge.svg)](https://repography.com)
 [![Timeline graph](https://images.repography.com/34865635/Rayan25062011/remossh/recent-activity/l0YrkkjyMXuy6_XVuo0JEiodmJ4OKWrZi-59MboDo4s/iDt1cbijGWWt4rY9eIw-uu_dzq4BrJp9c58gnGcrLzk_timeline.svg)](https://github.com/Rayan25062011/remossh/commits)
 [![Issue status graph](https://images.repography.com/34865635/Rayan25062011/remossh/recent-activity/l0YrkkjyMXuy6_XVuo0JEiodmJ4OKWrZi-59MboDo4s/iDt1cbijGWWt4rY9eIw-uu_dzq4BrJp9c58gnGcrLzk_issues.svg)](https://github.com/Rayan25062011/remossh/issues)
